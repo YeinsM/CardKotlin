@@ -14,17 +14,6 @@ class CourseViewHolder(view: View) : RecyclerView.ViewHolder(view) {
     //    This val can reduce the process in ViewHolder
     val binding = ItemCourseBinding.bind(view)
 
-//    With the before val isn't needed use this declarations
-
-//    val courseCode = view.findViewById<TextView>(R.id.cCode)
-//    val courseTitle = view.findViewById<TextView>(R.id.cTitle)
-//    val instructorId = view.findViewById<TextView>(R.id.instructorId)
-//    val instructor = view.findViewById<TextView>(R.id.instructor)
-//    val building = view.findViewById<TextView>(R.id.building)
-//    val room = view.findViewById<TextView>(R.id.room)
-//    val beginTime = view.findViewById<TextView>(R.id.bTime)
-//    val endTime = view.findViewById<TextView>(R.id.eTime)
-
     //    This function get a callback for each item in list Course
     fun render(courseModel: Course) {
 //        Now we can get access directly into IDs in the item_course.XML
