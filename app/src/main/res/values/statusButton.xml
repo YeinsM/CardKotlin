@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="statusButton" parent="Theme.MaterialComponents">
+        <item name="colorOnPrimary">#63D471</item>
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorOnSurface">@android:color/holo_orange_light</item>
+    </style>
+</resources>
